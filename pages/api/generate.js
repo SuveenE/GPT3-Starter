@@ -27,7 +27,7 @@ const generateAction = async (req, res) => {
   
   const prompt =
 `
-Explain CRISPR to a ${req.body.userInput} year old who has ${req.body.heardBefore}heard of it before in 100 words. Take something from ${req.body.userField} for an example as it will make the explanation more clear.
+Explain CRISPR to a ${req.body.userInput} year old who has ${req.body.heardBefore}heard of it before in 100 words. Take something from ${req.body.userField} for an example
 `
 ;
 console.log(`API: ${prompt}`)
